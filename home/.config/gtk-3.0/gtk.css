@@ -1,18 +1,18 @@
 window.thunar grid *:selected,
 window.thunar grid *:active {
-  color: #81A1C1;
-  background-color: #434C5E;
+  color: #89dceb;
+  background-color: #202729;
 }
 
 window.thunar .sidebar {
-  background-color: #3B4252;
+  background-color: #111719;
   border: none;
   padding: 1rem; 
 }
 
 window.thunar treeview {
   padding: 2px 5px 2px 0px;
-  background-color: #2E3440; 
+  background-color: #131a1c; 
 }
 
 window.thunar .frame {
@@ -32,15 +32,15 @@ window.thunar toolbar {
 }
 
 window.thunar .sidebar .view:hover { 
-  background-color: #4c566a; 
+  background-color: #202729; 
 }
 
 window.thunar .sidebar .view:selected {
-  border-left: 5px solid #81A1C1;
+  border-left: 5px solid #89dceb;
 }
 
 window.thunar toolbar > toolitem entry {
-    background-color: #3B4252;
+    background-color: #111719;
 }
 
 window.thunar #location-toolbar {
