@@ -1,45 +1,24 @@
 [colors]
-; Main bar bg color 
-background = #00242933
-; Modules bg color
-background-alt = #242933
-background-alt-2 = #2E3440
-background-alt-3 = #5B5F78
-; main foreground color 
-foreground = #ECEFF4
-; accent color
-accent = #96CDFB
-empty = #00000000
-
-mauve = #DDB6F2
-black = #131020
-green = #ABE9B3
-red = #F28FAD 	
-orange = #F8BD96
-cyan = #89DCEB
-pink = #F5C2E7
-yellow = #FAE3B0
-blue = #96CDFB
-teal = #B5E8E0
-gray = #988BA2
-flamingo = #F2CDCD
-
-[nord]
-bg     = #00242933
-nord00 = #111719
-nord0  = #131A1C
-nord1  = #3B4252
-nord2  = #363d3e
-nord3  = #4C566A
-nord4  = #D8DEE9
-nord5  = #E5E9F0
-nord6  = #d9e0ee
-nord7  = #8FBCBB
-nord8  = #88C0D0
-nord9  = #89dceb
-nord10 = #5E81AC
-nord11 = #f28fad
-nord12 = #D08770
-nord13 = #fae3b0
-nord14 = #A3BE8C
-nord15 = #B48EAD
+bg     = #000D1416
+black0 = #0D1416
+black1 = #111719
+black2 = #131a1c
+black3 = #192022
+black4 = #202729
+rosewater = #f5e0dc
+flamingo = #f2cdcd
+mauve = #ddb6f2
+pink = #f5c2e7
+maroon = #e8a2af
+red = #f28fad
+peach = #f8bd96
+yellow = #fae3b0
+green = #abe9b3
+teal = #b5e8e0
+blue = #96cdfb
+sky = #89dceb
+lavender = #c9cbff
+gray0 = #363d3e
+gray1 = #4a5051
+gray3 = #5c6262
+white = #d9e0ee

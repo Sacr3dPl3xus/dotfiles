@@ -3,9 +3,9 @@ include-file = ~/.config/polybar/colors
 include-directory = ~/.config/polybar/modules
 
 [bar/main]
-modules-left = l1 launcher r1 gap l1 bspwm r1 gap
+modules-left = l1 launcher r1 gap l1 bspwm r1 sep l1 polywins r1
 modules-center = 
-modules-right = l1 uptime r1 gap l1 volume space backlight space battery space network sepline date r1 gap l1 dunst space powermenu r1 sep2
+modules-right = separatorText brightness brightness_slider separatorText volume volume_slider separatorText sep l1 network sepline date r1 sep l1 dunst space powermenu r1
 
 
 width = 100%
@@ -22,17 +22,30 @@ line-size = 3
 line-color = #ffffff
 
 
-foreground = ${nord.nord6}
-background = ${nord.nord00}
-border-color = ${nord.nord00}
-border-size = 9
+foreground = ${colors.white}
+background = ${colors.black0}
+border-color = ${colors.black0}
+border-size = 6
 
 
 ; fonts
+; text
 font-0 = Iosevka:style=Medium Italic:size=10;3
+
+; icons
 font-1 = Feather:style=Bold:size=11;3
+
+; utils
 font-2 = CaskaydiaCove Nerd Font:size=17;6
-font-3 = Iosevka Nerd Font:style=Bold:size=14;4
-font-4 = Iosevka Nerd Font:style=Bold:size=17;4
+font-3 = "CaskaydiaCove Nerd Font:size=9;2" 
+
+; dashboard icon
+font-4 = Iosevka Nerd Font:style=Bold:size=15;4
+
+; workspace
+font-5 = "Iosevka Nerd Font:style=Regular:size=10;3"
+
+; sliders
+font-6 = "Iosevka Nerd Font:style=Regular:size=13;3"
 
 enable-ipc = true
