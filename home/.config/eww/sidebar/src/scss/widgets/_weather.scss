@@ -1,18 +1,18 @@
 .weather{
-    background-color: $bgSecondary;
+    background-color: $black3;
     border-radius: 5px;
 }
 .weather-icon{
     font-size: 40px;
     font-family: Iosevka Nerd Font;
     margin-bottom: -2.3em;
-    margin-right: -2.5em;
+    margin-right: -2em;
 }
 .weather-stat{
     font-size: 13px;
-    padding: 3px;
-    margin: 3px 0px 0px -1rem;
-    color: $nord9;
+    padding: 0.3rem;
+    margin: 0.3em 0px 0px 0px;
+    color: $gray3;
 }
 .temperature{
     font-size: 17px;

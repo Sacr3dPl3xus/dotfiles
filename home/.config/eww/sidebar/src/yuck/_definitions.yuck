@@ -18,7 +18,7 @@
     (system-manager))
 (defwindow music-player
     :geometry (geometry :x "1%"
-                        :y "509px"
+                        :y "513px"
                         :width "270px" 
                         :height "135px")
     (music-player))
@@ -36,13 +36,13 @@
     (lock-screen))
 (defwindow weather
     :geometry (geometry :x "12%"
-                        :y "204px" 
+                        :y "370px" 
                         :width "120px" 
-                        :height "120px")
+                        :height "125px")
     (weather))
 (defwindow battery
     :geometry (geometry :x "12%"
-                        :y "333px" 
+                        :y "193px" 
                         :width "120px" 
                         :height "148px")
     (battery))
@@ -54,7 +54,7 @@
     (date))
 (defwindow quote
     :geometry (geometry :x "1%"
-                        :y "655px" 
+                        :y "660px" 
                         :width "270px" 
                         :height "60px")
     (quote))

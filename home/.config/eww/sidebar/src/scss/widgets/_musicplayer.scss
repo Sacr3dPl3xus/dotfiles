@@ -2,7 +2,7 @@
     padding: 0 0 10px 0;
 
     .song-art {
-        background-color: $bgSecondary;
+        background-color: $black3;
         background-size: cover;
         background-position: center;
         border-radius: 5px;
@@ -11,18 +11,19 @@
     }
     
     .song-info {
-        background-color: $bgSecondary;
-        border-radius: 6px;
+        background-color: $black3;
+        border-radius: 5px;
 
         margin: 2px 0px -1px 90px;
 
         .song-controls {
             button {
+                color: $white;
                 font-family: "Material Icons";
                 font-size: 20px;
 
                 &:hover {
-                    color: $blue;
+                    color: $sky;
                 }
             }
         }
@@ -32,7 +33,7 @@
 .music-info {
     all: unset;
     background-color: transparent;
-    border-radius: 6px;
+    border-radius: 5px;
 
     .b {
         margin-left: 2rem;

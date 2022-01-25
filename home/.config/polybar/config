@@ -17,15 +17,11 @@ fixed-center = false
 wm-restack = bspwm
 override-redirect = true
 
-line-hieght = 4
-line-size = 3
-line-color = #ffffff
-
-
 foreground = ${colors.white}
 background = ${colors.black0}
-border-color = ${colors.black0}
+
 border-size = 6
+border-color = ${colors.black0}
 
 
 ; fonts

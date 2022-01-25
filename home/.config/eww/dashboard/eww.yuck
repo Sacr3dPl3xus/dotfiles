@@ -83,7 +83,7 @@
 						(label :class "iconbright" :text "")
 						(scale :min 0 :max 100 :value BLIGHT :active "false"))
 					(box :class "bat_bar" :orientation "h" :spacing 20 :space-evenly "false" :vexpand "false" :hexpand "false" 
-						(label :class "iconbat" :text "")
+						(label :class "iconbat" :text "")
 						(scale :min 0 :max 100 :value BATTERY :active "false")))))
 
 		;;  clock 

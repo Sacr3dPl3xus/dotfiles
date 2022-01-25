@@ -1,16 +1,17 @@
 .date {
-    background-color: $bgSecondary;
+    background-color: $black3;
     border-radius: 5px;
 
     .weekday {
-        color: $nord10;
-        margin-top: 0.5em;
+        color: $gray3;
+        margin-top: 0.3em;
         margin-left: 0.6em;
     }
 
     .monthday {
-        margin-top: 0.3em;
-        margin-left: -2rem;
+        color: $white;
+        margin-top: 0.1em;
+        margin-left: -1.5rem;
         font-size: 15px;
         font-weight: bold;
     }

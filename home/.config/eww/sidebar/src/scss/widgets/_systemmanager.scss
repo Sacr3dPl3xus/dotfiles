@@ -1,17 +1,17 @@
 .system-manager {
-    background-color: $bgSecondary;
+    background-color: $black3;
     padding-top: 1rem;
     padding-left: 0.46rem;
     padding-right: 0.46rem;
     .a {
         .title {
-            color: $fg;
+            color: $gray3;
             margin-right: -45px;
         }
     }
 
     scale trough {
-        background-color: $bg;
+        background-color: $black1;
         border-radius: 50px;
     
         min-height: 160px;
@@ -28,33 +28,34 @@
 
     .ram-bar {
         scale trough highlight {
-            background-color: $nord7;
+            background-color: $yellow;
         }
     }
 
     .disk-bar {
         scale trough highlight {
-            background-color: $nord8
+            background-color: $red
         }
     }
 
     .vol-bar {
         scale trough highlight {
-            background-color: $nord9
+            background-color: $blue
         }
     }
 
     .bri-bar {
         scale trough highlight {
-            background-color: $nord10;
+            background-color: $green;
         }
     }
 }
 
 .radial-main-box {
-    background-color: $nord0;
+    background-color: $black3;
     padding: 10px;
-    padding-top: 48.3px;
+    padding-top: 3em;
+    padding-bottom: 1em;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
@@ -63,14 +64,14 @@
   .radial-label {
     padding: 30px;
     font-size: 30px;
-    background-color: $nord0;
+    background-color: $black3;
   }
   .cpu-radial {
-    color: $nord8;
-    background-color: $bg;
+    color: $teal;
+    background-color: $black1;
   }
   .title-bat{
-      color: $fg;
-      margin-top: -53px;
-      margin-left: -48px;
+      color: $gray3;
+      margin-top: -3em;
+      margin-left: -3.5em;
   }
