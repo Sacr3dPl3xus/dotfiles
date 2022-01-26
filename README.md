@@ -30,7 +30,7 @@
 
 - OS: [Arch Linux](https://archlinux.org/)
 - WM: [Bspwm](https://github.com/baskerville/bspwm)
-- GTK: You can find [here.](https://github.com/rxyhn/gtk)
+- GTK: You can find [here.](https://github.com/rxyhn/gtk3)
 - Font: I use [Cartograph CF](https://coding-fonts.css-tricks.com/fonts/cartograph-cf)
 - Widget System: [Elkowars Wacky Widgets.](https://github.com/elkowar/eww)
 
