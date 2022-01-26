@@ -70,7 +70,7 @@ sh $HOME/.config/eww/sidebar/scripts/getWeather &
 dunst --config "${HOME}/.config/dunst/dunstrc" &
 
 # Run Picom.
-picom --experimental-backends --config $HOME/.config/picom/picom.conf &
+picom --config $HOME/.config/picom/picom.conf &
 
 # Run polkit daemon if doesn't started.
 [ -n "$(pidof xfce-polkit)" ] || /usr/lib/xfce-polkit/xfce-polkit &
@@ -85,7 +85,7 @@ xfce4-power-manager &
 bspfloat &
 
 # Start X wallpaper.
-feh --no-fehbg --bg-fill "${HOME}/Pictures/Wallpapers/Nord/nordCloud.png" 
+feh --no-fehbg --bg-tile "${HOME}/Pictures/Wallpapers/Catppuccin/no.de.tile.png" 
 
 # Start polybar
 sh $HOME/.config/polybar/launch.sh 
@@ -97,7 +97,7 @@ xsetroot -cursor_name left_ptr
 # #                                 WINDOW RULES                               #
 # ##############################################################################
 
-bspc monitor -d I II III IV V VI VII VIII IX 
+bspc monitor -d I II III IV V VI
 
 rule -a kitty                       follow=on focus=on
 rule -a Code                        follow=on focus=on
