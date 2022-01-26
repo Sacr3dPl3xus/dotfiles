@@ -19,11 +19,11 @@
 <!-- INFORMATION -->
 # ❖ Information 
 
-<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" align="left" height="100">
+## General Info
+
+<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" align="right" height="100">
 
 <img src="https://raw.githubusercontent.com/elkowar/eww/8336bd04d2c7fe301645bb883b140c6415e87556/.github/EwwLogo.svg" align="right" height="100"/>
-
-## General Info
 
 - OS: [Arch Linux](https://archlinux.org/)
 - WM: [Bspwm](https://github.com/baskerville/bspwm)
