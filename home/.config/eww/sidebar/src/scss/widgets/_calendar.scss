@@ -1,10 +1,10 @@
 .cal-box {
-    background-color: $bg;
-    border: 16px $bg solid;
+    background-color: $black2;
+    border: 16px $black2 solid;
 
     .cal-inner-box {
         padding: 1rem 1rem .2rem;
-        border: 4px $bgSecondary solid;
+        border: 4px $black1 solid;
 
         .cal {
             &.highlight {
@@ -18,20 +18,20 @@
 }
 
 calendar:selected {
-    color: $nord10;
+    color: $sky;
 }
 
 calendar.header {
-	color: $nord7;
+	color: $mauve;
 	font-weight: bold;
 }
 
 calendar.button {
-	color: $nord8;
+	color: $sky;
 }
 
 calendar.highlight {
-	color: $nord10;
+	color: $sky;
 	font-weight: bold;
 }
 

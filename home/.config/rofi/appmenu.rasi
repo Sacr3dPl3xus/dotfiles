@@ -17,7 +17,7 @@ window {
 }
 
 entry {
-    background-color:               #2E3440;
+    background-color:               #0D1416;
     text-color:                     @foreground;
     placeholder-color:              @foreground;
     expand:                         true;

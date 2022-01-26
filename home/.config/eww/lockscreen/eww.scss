@@ -1,45 +1,28 @@
-$bg: #2E3440;
-$fg: #ECEFF4;
-$accent: #88C0D0;
-
-* {
-    all: unset;
-}
-
-window {
-    color: $fg;
-    font-family: "Iosevka Nerd Font";
-}
-
-button:hover {
-    color: $accent;
-}
-
 .lock-screen {
-    background: $bg;
+    background: #131A1C;
     border-radius: 10px;
 
     .lock-pfp {
         background-image: url("profile.png");
-        background-size: 100%;
+        background-size: cover;
+        background-position: center;
         border-radius: 40px;
-        margin-top: 20px;
-        margin-bottom: -16px;
-        margin-left: 32px;
-        margin-right: 30px;
+
+        margin: 25px 35px 25px 45px;
     }
 
     .lock-text {
-        margin: 40px 0px 10px 0px;
+        margin: 40px -20px 30px -70px;
         
         .lock-username {
-            font-family: "FiraCode Nerd Font"; 
-            margin-bottom: -5px;           font-size: 20px;
-            color: $accent;
+            font-family: "Cartograph CF", monospace;
+            font-size: 24px;
+            font-style: italic;
+            color: #89dceb;
         }
 
         .lock-hostname {
-            font-size: 15px;
+            font-size: 16px;
         }
     }
 }

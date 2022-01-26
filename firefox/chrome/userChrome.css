@@ -1,27 +1,27 @@
 * {
-	font-family: "JetBrains Mono" !important;
+	font-family: "JetBrainsMono Nerd Font" !important;
 	font-weight: 500 !important;
 	font-size: 12px !important;
-	--arrowpanel-background: #2E3440 !important;
-	--arrowpanel-border-color: #3B4252 !important;
-	--autocomplete-popup-highlight-background: #434C5E !important;
+	--arrowpanel-background: #131A1C !important;
+	--arrowpanel-border-color: #111719 !important;
+	--autocomplete-popup-highlight-background: #363d3e!important;
 
-	--button-hover-bgcolor: #434C5E !important;
-	--button-primary-hover-bgcolor: #434C5E !important;
+	--button-hover-bgcolor: #363d3e!important;
+	--button-primary-hover-bgcolor: #363d3e!important;
 
-	--in-content-border-hover: #434C5E !important;
-	--in-content-button-background-hover: #434C5E !important;
-	--in-content-item-hover: #434C5E !important;
+	--in-content-border-hover: #363d3e!important;
+	--in-content-button-background-hover: #363d3e!important;
+	--in-content-item-hover: #363d3e!important;
 
-	--toolbarbutton-active-background: #2E3440 !important;
+	--toolbarbutton-active-background: #131A1C !important;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 }
 
 .toolbar {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 }
 
 window,
@@ -31,27 +31,27 @@ window,
 #PersonalToolbar,
 #navigator-toolbox,
 #sidebar-box {
-	background-color: #3B4252 !important;
+	background-color: #111719 !important;
 	-moz-appearance: none !important;
 	background-image: none !important;
 	border: none !important;
 }
 
 .tab-background {
-	background-color: #3B4252 !important;
+	background-color: #111719 !important;
 	border-color: none !important;
 	margin-block: 0px !important;
 }
 
 .tab-background[selected="true"] {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 	-moz-appearance: none !important;
 	background-image: none !important;
 	border: none !important;
 }
 
 .tabbrowser-tab:hover .tab-background {
-	background-color: #434C5E !important;
+	background-color: #363d3e!important;
 }
 
 .tabbrowser-tab[fadein] {
@@ -59,11 +59,11 @@ window,
 }
 
 #urlbar {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 }
 
 #nav-bar {
-	background-color: #3B4252 !important;
+	background-color: #111719 !important;
 	-moz-appearance: none !important;
 	background-image: none !important;
 	border: none !important;
@@ -180,12 +180,12 @@ window,
 }
 
 #urlbar-input {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 	padding: 4px !important;
 }
 
 #urlbar-results {
-	background-color: #2E3440 !important;
+	background-color: #131A1C !important;
 	border-radius: 10px !important;
 }
 
@@ -209,5 +209,5 @@ window,
 }
 
 urlbar > #urlbar-background {
-	background-color: "#2E3440" !important;
+	background-color: "#131A1C" !important;
 }

@@ -3,7 +3,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 :root {
-	scrollbar-color: #2E3440 #3B4252;
+	scrollbar-color: #131A1C #111719;
 }
 
 * {
@@ -12,11 +12,11 @@
 
 @-moz-document url("about:sessionrestore") {
     * {
-		font-family: "JetBrains Mono" !important;
+		font-family: "JetBrainsMono Nerd Font" !important;
 	}
 
 	body {
-		background-color: #2E3440 !important;
+		background-color: #131A1C !important;
 	}
 
 	#tabsToggle {
@@ -28,16 +28,16 @@
 	html|input[type="color"]:hover,
 	xul|button:not([disabled="true"]):hover,
 	xul|menulist:not([disabled="true"]):hover {
-		border-color: #3B4252 !important;
-		background-color: #2E3440 !important;
+		border-color: #111719 !important;
+		background-color: #131A1C !important;
 	}
 
 	html|button[autofocus],
 	html|button[type="submit"],
 	xul|button[default],
 	button.primary {
-		border-color: #3B4252 !important;
-		background-color: #81A1C1 !important;
+		border-color: #111719 !important;
+		background-color: #96cdfb !important;
 	}
 }
 
@@ -47,7 +47,7 @@
 	}
 
 	body {
-		background-color: #2E3440 !important;
+		background-color: #131A1C !important;
 	}
 
     .SnippetBaseContainer {
@@ -56,9 +56,9 @@
 
 	.search-handoff-button {
 		border-width: 4px !important;
-		border-color: #3B4252 !important;
+		border-color: #111719 !important;
 		background-size: 0px !important;
-		background-color: #2E3440 !important;
+		background-color: #131A1C !important;
 		padding-inline-start: 10px !important;
 		padding-inline-end: 10px !important;
 	}
@@ -72,7 +72,7 @@
 	}
 
 	.search-wrapper input {
-		background-color: #2E3440 !important;
+		background-color: #131A1C !important;
 		border-radius: 0px !important;
 		background-image: none !important;
 		background-size: none !important;

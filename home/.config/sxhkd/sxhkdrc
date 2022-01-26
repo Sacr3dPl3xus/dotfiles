@@ -33,6 +33,10 @@ super + d
 super + s
     sh $HOME/.local/bin/sidebar
 
+# Toggle eww systray
+super + t
+    sh $HOME/.local/bin/systray
+
 # Toggle powermenu
 super + x
     sh $HOME/.local/bin/powermenu

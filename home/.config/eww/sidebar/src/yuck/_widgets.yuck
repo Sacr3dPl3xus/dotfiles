@@ -106,24 +106,6 @@
         )
     )
 )
-(defwidget lock-screen [] 
-    (box :orientation "v" :space-evenly "true"
-        (box :class "lock-screen"
-             :orientation "h"
-
-            (box :class "lock-pfp")
-            (box :class "lock-text" :orientation "v"
-                (box :class "lock-username" username)
-                (box :class "lock-hostname" "@${hostname}")
-            )
-        )
-    )
-)
-(defwidget launcher []
-    (box :class "launcher" :orientation "h"
-        (button :class "search" :onclick "~/.local/bin/appmnu" "  Click to search")
-    )
-)
 (defwidget weather [] 
     (box :orientation "v" :class "weather" :space-evenly "false" 
     (box :class "weather-stat" weather-stat)
@@ -154,70 +136,3 @@
         )
     )
 )
-(defwidget powermenu []
-    (box :class "powermenu" :orientation "v"
-        (button :onclick "systemctl poweroff" "襤")
-        (button :onclick "systemctl reboot" "ﰇ")
-        (button :onclick "bspc quit" "")
-        (button :onclick "sh ./scripts/lockScreen" "")
-        (button :onclick "systemctl hybrid-sleep" "鈴")
-    )
-)
-(defwidget update [] 
-    (box	:orientation "h"  
-    (button	:class "package"	:onclick "~/.config/eww/sidebar/scripts/popup"	 " ")
-    (label	:class "updt"		:text "${update} pkgs")
-    )
-)
-(defwidget txt [label]
-    (box :halign 'start' label ))
-  
-  (defwidget title[]
-   (box :class 'fetchTitles' :orientation 'v'
-      (txt :label 'os ')
-      (txt :label 'wm ')
-      (txt :label 'sh ')
-      (txt :label 'up ')
-  ))
-; dummy details for now!
-(defwidget details[]
-    (box :class 'fetchDetails' :orientation 'v'
-    (txt :label  os)
-    (txt :label  wm)
-    (txt :label  shell)
-    (txt :label  uptime)
-  ))
-
-  (defwidget fetch[]
-    (box :class 'fetch' 
-     (box :orientation 'h' 
-     :class 'fetchContent' 
-     :halign "center"
-     :space-evenly false
-     (title) 
-     (details)
-    )
-   ))
-   (defwidget xfetch[]
-    (box :orientation 'v' 
-         :space-evenly false
-     (fetch)
-        (box    :orientation "h"
-        :halign "center"
-        :class "dots"
-        :spacing 10;
-        (label  :text ""
-                :class "red")
-        (label  :text ""
-                :class "green")
-        (label  :text ""
-                :class "yellow")
-        (label  :text ""
-                :class "blue")
-        (label  :text ""
-                :class "magenta")
-        (label  :text ""
-                :class "cyan")
-        )
-    )
-)  

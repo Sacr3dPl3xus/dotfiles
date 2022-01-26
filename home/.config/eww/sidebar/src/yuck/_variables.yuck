@@ -39,12 +39,6 @@
 (defpoll album		:interval "5s"  "~/.config/eww/sidebar/scripts/music album")
 (defpoll playpause	:interval "5s"  "~/.config/eww/sidebar/scripts/music statusicon")
 
-;; LOCK SCREEN VARS
-(defpoll username :interval "1s"
-    "whoami")
-(defpoll hostname :interval "1s"
-    "hostname")
-
 ;; WEATHER VARS
 (defpoll weather-icon :interval "20m"  "cat /tmp/sidebar/weather/weather-icon")
 (defpoll temperature :interval "20m"  "cat /tmp/sidebar/weather/weather-degree")
@@ -64,17 +58,3 @@
     "./scripts/getCalendarMonth")
 (defpoll calendar_year :interval "10h"
     "date '+%Y'")
-
-;; UPDATE
-(defpoll update		:interval "10m"  "~/.config/eww/sidebar/scripts/update")
-
-;; FETCH
-;fetch 
-(defpoll os :interval '10000s'
-  './scripts/fetch os')
-(defpoll shell :interval '100000s'
-  './scripts/fetch sh')
-(defpoll wm :interval '100000s'
-  './scripts/fetch wm')
-  (defpoll uptime :interval '30s'
-  './scripts/fetch up')
