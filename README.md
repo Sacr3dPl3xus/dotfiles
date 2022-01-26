@@ -1,5 +1,12 @@
 <h1 align="center"> ━━━━━━  ❖  ━━━━━━ </h1>
 
+<h3 align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
+	Catppuccin Theme
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
+</h3>
+
 <div align="center">
     <p></p>
     <a href="https://github.com/rxyhn/dotfiles/stargazers">
@@ -51,3 +58,6 @@
         - **© All artists who create icons, illustrations, and wallpapers.**
 
 <p align="center"><a href="https://github.com/rxyhn/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=GPL-3.0&logoColor=eceff4&logo=github&colorA=131a1c&colorB=89dceb"/></a></p>
+
+<h1 align="center"> ━━━━━━  ❖  ━━━━━━ </h1>
+
